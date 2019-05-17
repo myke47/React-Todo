@@ -45,6 +45,8 @@ input {
     background-color: dodgerblue;
     color: white;
     margin: 10% auto;
+    text-shadow: 2px 2px 5px black;
+    border-style: none;
 
 }
 
@@ -80,9 +82,11 @@ input {
     background-color: coral;
     margin: 1% auto;
     width: 100%;
-    align-items: center;
+    text-align: -webkit-center;
     font-weight: 800;
     font-size: 1.2rem;
+    border-style: none;
+    text-shadow: 2px 2px 5px black;
 }
 
 .clear-btn {
@@ -97,6 +101,8 @@ input {
     background-color: dodgerblue;
     color: white;
     margin: 5% auto;
+    text-shadow: 2px 2px 5px black;
+    border-style: none;
 }
 
 p {
@@ -110,6 +116,7 @@ p {
 .todo.completed {
     background-color: gray;
     text-decoration: line-through;
+    text-shadow: 2px 2px 5px black;
 }
 
 footer {

@@ -71,7 +71,7 @@ class App extends React.Component {
         <TodoForm addTodo={this.addTodo} />
         </div>
         <section className='app-info'>
-          <h3 className="tag-line">Track your tasks faster with TaskTrack.</h3>
+          <h3 className="tag-line">Track Tasks Fast @TaskTrack.</h3>
         </section>
         <TodoList 
           todos={this.state.todos}
