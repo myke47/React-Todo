@@ -45,6 +45,7 @@ input {
     background-color: dodgerblue;
     color: white;
     margin: 10% auto;
+
 }
 
 .app-info {
@@ -100,7 +101,7 @@ p {
 }
 
 .todo.completed {
-    background-color: '';
+    background-color: gray;
     text-decoration: line-through;
 }
 
