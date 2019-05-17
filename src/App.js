@@ -29,9 +29,7 @@ class App extends React.Component {
       todos
     };
   };
-  // you will need a place to store your state in this component.
-  // design `App` to be the parent component of your application.
-  // this component is going to take care of state, and any change handlers you need to work with your state
+  // This was a Lambda School Project for Class Componenets II
   toggleTodo = todoId => {
     this.setState({
       todos: this.state.todos.map(todo => {
@@ -81,10 +79,13 @@ class App extends React.Component {
           clearCompleted={this.clearCompleted}
         />
         <section className='app-credit'>
-          <p>Github: @myke47</p>
+        <p>Github: @myke47
+        <a href="https://github.com/myke47" text="Github: @myke47" target="_blank" rel="noopener noreferrer"></a>
+        </p>
+
         </section>
         <footer>
-        <p>Created in React App</p>
+        <p>React App Project</p>
         </footer>
       </div>
     );
