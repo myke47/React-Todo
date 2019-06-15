@@ -1,0 +1,126 @@
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 1% auto;
+    font-family:    Verdana, Geneva, Tahoma, sans-serif;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5% auto;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5% auto;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: -webkit-fill-available;
+    align-items: center;
+    font-family: inherit;
+}
+
+.track-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 1%;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    margin: 10% auto;
+    text-shadow: 2px 2px 5px black;
+    border-style: none;
+
+}
+
+.app-info {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5% auto;
+}
+
+.tag-line {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.app-credit {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5% auto;
+    padding: 2%;
+    width: 50%;
+    
+}
+
+.todo {
+    display: flex;
+    background-color: coral;
+    margin: 1% auto;
+    width: 100%;
+    text-align: -webkit-center;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-style: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+.clear-btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 1%;
+    background-color: dodgerblue;
+    color: white;
+    margin: 5% auto;
+    text-shadow: 2px 2px 5px black;
+    border-style: none;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    margin: 1% auto;
+    width: 100%;
+}
+
+.todo.completed {
+    background-color: gray;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 5px black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+}
